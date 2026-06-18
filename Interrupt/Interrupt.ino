@@ -1,22 +1,24 @@
-// C++ code
-//
+const byte ledPin = 6;
 
-void setup()
-{
-  int LEDred = 6;
-  int taster=7;
-  int tasterstatus= 0;
-}
+    const byte interruptPin = 7;
 
-void loop()
-{
-  tasterstatus=digitalRead(taster);
-  if(tasterstatus == HIGH){
-    digitalWrite(LEDred, HIGH);
+    volatile byte state = LOW;
 
-  }
-  else(tasterstatus == LOW);
-  {
-    digitalWrite(LEDred, LOW);
-  }
-}
+    void setup() {
+
+      pinMode(ledPin, OUTPUT);
+
+      pinMode(interruptPin, INPUT_PULLUP);
+
+      attachInterrupt(digitalPinToInterrupt(interruptPin), blink, FALLING);
+    }
+
+    void loop() {
+
+      digitalWrite(ledPin, state);
+    }
+
+    void blink() {
+
+      state = !state;
+    }
