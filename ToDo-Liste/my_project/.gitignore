@@ -1,0 +1,15 @@
+.DS_Stroe
+**/.DS_Store
+#Rust
+**/target/
+**/debug/
+**/build/
+'Database / data
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+#IDE
+-vscode/
+.vscode/
+.idea/

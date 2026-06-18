@@ -1,0 +1,1 @@
+/Users/yatoum/Documents/Taschenrecner/SAE-Learning-journey/mitarbeite_data/hello_rust/target/debug/hello_rust: /Users/yatoum/Documents/Taschenrecner/SAE-Learning-journey/mitarbeite_data/hello_rust/src/main.rs
