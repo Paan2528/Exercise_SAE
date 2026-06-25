@@ -1,0 +1,1 @@
+/Users/yatoum/Documents/Taschenrecner/SAE-Learning-journey/Word-count-Tool(UNIX-wc/my_project/target/debug/my_project: /Users/yatoum/Documents/Taschenrecner/SAE-Learning-journey/Word-count-Tool(UNIX-wc/my_project/src/main.rs
